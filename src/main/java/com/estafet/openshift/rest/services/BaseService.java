@@ -17,7 +17,7 @@ public class BaseService {
 		@Path("/")
 		@Produces(APPLICATION_JSON)
 		public String hello() {
-				return "Welcome to OpenShift, Mr. Delov!";
+				return "Welcome to OpenShift, Mr. Igor!";
 		}
 
 }
