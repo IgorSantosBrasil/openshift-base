@@ -11,11 +11,5 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 @ApplicationPath("/")
 public class RestConfig extends Application{
 
-		@GET
-		@Path("/device")
-		@Produces(APPLICATION_JSON)
-		public String ping(){
 
-				return "Hello World!";
-		}
 }
